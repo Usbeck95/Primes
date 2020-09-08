@@ -1,3 +1,4 @@
+/*
 const isPrime = function (arg) {
     for (var i = 2; i < arg; i += 1) {
         if (arg % i === 0) {
@@ -6,9 +7,14 @@ const isPrime = function (arg) {
     }
     return true;
 }
-
-/* 
-for(let i = 3; i <?; i + = 2) {
-
-}
 */
+
+
+const isPrime = function (arg) {
+    for(let i = 3; i < arg; i += 2) {
+        if (arg % i === 0) {
+            return false;
+        }
+    }
+ return true;
+}
