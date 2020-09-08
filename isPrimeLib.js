@@ -6,3 +6,9 @@ const isPrime = function (arg) {
     }
     return true;
 }
+
+/* 
+for(let i = 3; i <?; i + = 2) {
+
+}
+*/
