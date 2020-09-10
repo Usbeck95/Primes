@@ -11,7 +11,7 @@ const isPrime = function (arg) {
 
 
 const isPrime = function (arg) {
-    for(let i = 3; i < arg; i += 1) {
+    for(let i = 3; i < Math.sqrt(arg); i += 2) {
         if (arg % i === 0) {
             return false;
         }
@@ -21,4 +21,4 @@ const isPrime = function (arg) {
 // let x = 6*i-1
 // let y = 6*i+1 
 // når man når kvadratroden kan man holde op med at dividere
-// && Math.sqrt(arg) === 0
+// Math.sqrt(arg) 
